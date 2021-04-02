@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="username"
+            />
+        <EditText
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:id="@+id/name"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="userpwd"
+            />
+
+
+        <EditText
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:id="@+id/password"
+            android:password="true"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="姓名："
+            />
+        <EditText
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:id="@+id/un"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="年龄："
+            />
+        <EditText
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:id="@+id/age"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="手机号码："
+            />
+        <EditText
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:textSize="15dip"
+            android:id="@+id/num"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button
+
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:id="@+id/ld"
+            />
+        <Button
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:id="@+id/reg"
+            />
+        <Button
+
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="退出"
+            android:id="@+id/exit"
+            />
+    </LinearLayout>
+</LinearLayout>

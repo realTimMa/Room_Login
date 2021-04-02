@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:text="您的用户名是："
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/user_name"
+        android:layout_width="fill_parent"
+        android:textSize="25dp"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView android:text="键入新密码："
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:password="true"
+        android:id="@+id/pwd"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content" />
+    <TextView android:text="重新键入新密码："
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:password="true"
+        android:id="@+id/repwd"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content" />
+
+    <Button android:text="修改"
+        android:id="@+id/button_ok"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button android:text="返回"
+        android:id="@+id/button_del"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

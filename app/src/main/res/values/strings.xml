@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username">用户名：</string>
+    <string name="userpwd">密码：</string>
+    <string name="button_load">登录</string>
+    <string name="button_regist">注册</string>
+    <string name="button_exit">退出</string>
+    <string name="welcome">您好 </string>
+    <string name="user">用户名： </string>
+    <string name="pd">用户密码： </string>
+    <string name="tell">更多操作按钮~请按menu键 </string>
+    <string name="app_name">TestRoom</string>
+</resources>
